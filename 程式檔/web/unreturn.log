@@ -1,0 +1,32 @@
+[
+	{
+		"student":"邱妤",
+		"id":"105213111",
+		"bookname":"齊澤克的意識型態",
+		"Dateline":"2018/07/20"
+	},
+	{
+		"student":"邱妤",
+		"id":"105213111",
+		"bookname":"實戰聊天機器人Bot開發：使用Node.js",
+		"Dateline":"2018/07/20"
+	},
+	{
+		"student":"朱育柔",
+		"id":"105213123",
+		"bookname":"深入淺出Android開發",
+		"Dateline":"2018/07/23"
+	},
+	{
+		"student":"邱妤",
+		"id":"105213111",
+		"bookname":"Node.js物聯網裝置開發",
+		"Dateline":"2018/07/20"
+	},
+	{
+		"student":"朱育柔",
+		"id":"105213123",
+		"bookname":"低成本、高品質，開設網路商店的10堂課",
+		"Dateline":"2018/07/23"
+	}
+]

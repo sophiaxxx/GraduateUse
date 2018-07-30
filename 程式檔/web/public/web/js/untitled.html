@@ -1,0 +1,29 @@
+
+<!DOCTYPE HTML><html><head><meta charset="UTF-8">
+<title>CSS3 Blinking Image With Keyframes Demo</title>
+<style type="text/css">
+@-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+@-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+@-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+@keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+img {
+border:1px solid #000;
+-moz-transition:all 1s ease-in-out;
+-webkit-transition:all 1s ease-in-out;
+-o-transition:all 1s ease-in-out;
+-ms-transition:all 1s ease-in-out;
+transition:all 1s ease-in-out;
+/* order: name, direction, duration, iteration-count, timing-function */   
+-moz-animation:blink normal 2s infinite ease-in-out; /* Firefox */
+-webkit-animation:blink normal 2s infinite ease-in-out; /* Webkit */
+-ms-animation:blink normal 2s infinite ease-in-out; /* IE */
+animation:blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}​
+</style> 
+</head>
+<body>
+<h1>CSS3 Blinking Image With Keyframes Demo</h1>
+<p><a href="css3-blinking-image-with-keyframes.php">&laquo; Back To Tutorial</a></p>
+<img src="../images/dont-blink.jpg" width="350px" height="237px" alt="Don't Blink">
+</body>
+</html>
