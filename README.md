@@ -36,7 +36,7 @@ GraduateUse
 **1.環境架設**
 
     1-1.採用android studio開發
-    1-2.專案使用到estimate 與 facebook api
+    1-2.專案使用到estimate 的Beacon 與 facebook api
 
 **2.java檔案與所屬UI layout描述**
 
